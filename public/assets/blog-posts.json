@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "230 Años de una Ciudad que Crece: Constitución Celebra un Nuevo Aniversario",
+    "image": "assets/blog/imagen-01.jpg",
+    "content": "La ciudad de Constitución celebró su aniversario número 230 con una serie de actividades diseñadas para reunir a la comunidad y recordar la rica historia de la ciudad. Durante una semana completa, los ciudadanos disfrutaron de eventos culturales, artísticos, y deportivos. La ceremonia oficial se realizó en la Plaza de Armas, donde autoridades locales y regionales destacaron el progreso que ha tenido la ciudad en las últimas décadas. Además, se llevaron a cabo concursos de pintura para los más jóvenes, exposiciones fotográficas sobre el pasado de Constitución, y un emotivo desfile en el que participaron escuelas locales y organizaciones comunitarias.",
+    "author": "Equipo Municipal",
+    "date": "2024-08-12"
+  },
+  {
+    "id": 2,
+    "title": "Ministerio de Obras Públicas Rinde Cuentas sobre el Nuevo Hospital",
+    "image": "assets/blog/imagen-02.jpeg",
+    "content": "En una reunión del Concejo Municipal, el Ministerio de Obras Públicas presentó un informe detallado sobre los avances en la construcción del nuevo hospital de Constitución. La obra, que ha sido largamente esperada por la comunidad, representará un gran salto en los servicios de salud de la ciudad. El nuevo hospital incluirá áreas especializadas en pediatría, cardiología, y atención de emergencias. Durante la presentación, también se abordaron las dificultades que han retrasado el proyecto, tales como las inclemencias del clima y la logística de transporte de materiales a zonas rurales cercanas.",
+    "author": "Equipo Municipal",
+    "date": "2024-05-28"
+  },
+  {
+    "id": 3,
+    "title": "Sector Terminal de Buses Tendrá Nuevas Veredas",
+    "image": "assets/blog/imagen-03.jpeg",
+    "content": "Como parte de las mejoras en la infraestructura urbana, el Terminal de Buses de Constitución verá renovadas sus veredas y áreas de tránsito peatonal. Este proyecto no solo mejorará la accesibilidad para los pasajeros, sino que también reducirá los accidentes causados por superficies irregulares. Se espera que las obras concluyan en los próximos dos meses y que beneficien a más de 2,000 personas que transitan diariamente por la zona. Además, se incluirán rampas de acceso para personas con movilidad reducida y nuevas áreas verdes que embellecerán el entorno.",
+    "author": "Equipo de Obras",
+    "date": "2024-03-15"
+  },
+  {
+    "id": 4,
+    "title": "2º Versión de la Corrida Flúor Verano 2024",
+    "image": "assets/blog/imagen-04.jpg",
+    "content": "El evento deportivo nocturno 'Corrida Flúor' ha vuelto en su segunda edición, iluminando las calles de Constitución con colores brillantes y energía juvenil. La carrera, que combina ejercicio y entretenimiento, contó con la participación de más de 500 corredores de todas las edades, quienes disfrutaron de una experiencia única al recorrer los principales puntos turísticos de la ciudad. Además de la carrera, se ofrecieron actividades complementarias, como clases de zumba, música en vivo y food trucks con opciones saludables para los participantes.",
+    "author": "Departamento de Deportes",
+    "date": "2024-02-10"
+  },
+  {
+    "id": 5,
+    "title": "Lanzamiento del Programa 'A Convivir se Aprende'",
+    "image": "assets/blog/imagen-05.jpeg",
+    "content": "El programa 'A Convivir se Aprende', diseñado para mejorar la convivencia escolar y promover el respeto mutuo entre los estudiantes, fue lanzado con una ceremonia en el gimnasio municipal. El proyecto, dirigido a estudiantes de primaria y secundaria, tiene como objetivo fomentar valores de tolerancia, empatía y resolución pacífica de conflictos. Durante el lanzamiento, se realizaron talleres con profesores y orientadores para capacitarlos en el manejo de situaciones difíciles dentro del aula y se entregó material educativo que será distribuido en todas las escuelas de la comuna.",
+    "author": "Departamento de Educación",
+    "date": "2024-04-05"
+  },
+  {
+    "id": 6,
+    "title": "Lanzamiento de la 2ª Feria Maucha del Libro",
+    "image": "assets/blog/imagen-06.jpg",
+    "content": "La 2ª Feria Maucha del Libro se realizó con un éxito rotundo en la Plaza de Constitución, donde tanto locales como turistas pudieron disfrutar de una amplia gama de actividades culturales. Este evento, que se ha convertido en una tradición anual, incluyó la participación de destacados autores nacionales que ofrecieron charlas y talleres literarios. La feria también contó con un espacio dedicado a la lectura infantil, presentaciones musicales, y stands de editoriales locales. La Municipalidad anunció que este tipo de actividades buscan fomentar la lectura y el desarrollo cultural en la comuna.",
+    "author": "Cultura y Turismo",
+    "date": "2024-06-20"
+  },
+  {
+    "id": 7,
+    "title": "Entrega de Trabajos de Mejoramiento en la Posta de Carrizalillo",
+    "image": "assets/blog/imagen-07.jpg",
+    "content": "La comunidad de Carrizalillo celebró la entrega oficial de los trabajos de mejoramiento en la Posta Rural, que ahora cuenta con nuevas instalaciones y equipamiento médico moderno. La obra, que forma parte de un plan mayor de fortalecimiento del sistema de salud rural, permitirá atender a más de 1,000 personas al mes. Durante la ceremonia de inauguración, los vecinos expresaron su agradecimiento por las mejoras realizadas, destacando que el acceso a una atención médica de calidad es esencial en zonas alejadas de los centros urbanos.",
+    "author": "Departamento de Salud",
+    "date": "2024-07-05"
+  },
+  {
+    "id": 8,
+    "title": "Fiesta Costumbrista San Pedro de Maguillines: Mar de Sabores",
+    "image": "assets/blog/imagen-08.jpg",
+    "content": "La tradicional Fiesta Costumbrista de San Pedro de Maguillines reunió a cientos de personas en torno a la gastronomía local y las costumbres marineras. Durante el evento, los asistentes pudieron disfrutar de platos típicos como empanadas de mariscos, curanto, y cazuelas de pescado, preparados por cocineros locales. Además, hubo presentaciones de música folclórica, juegos populares y una exhibición de embarcaciones pesqueras tradicionales. La fiesta es un reflejo de la identidad de esta comunidad costera y su profundo vínculo con el mar.",
+    "author": "Cultura y Turismo",
+    "date": "2024-07-18"
+  },
+  {
+    "id": 9,
+    "title": "Farmacia Territorial APS Constitución: Acercando tus Medicamentos",
+    "image": "assets/blog/imagen-09.jpeg",
+    "content": "La apertura de la Farmacia Territorial APS en Constitución marca un hito importante en el acceso a medicamentos de alta calidad para la comunidad. Este nuevo servicio, impulsado por el Departamento de Salud Municipal, tiene como objetivo principal reducir los tiempos de espera y facilitar la obtención de medicamentos para enfermedades crónicas. Desde su inauguración, la farmacia ha atendido a más de 2,000 personas, brindando también orientación farmacéutica personalizada para garantizar el correcto uso de los medicamentos.",
+    "author": "Departamento de Salud",
+    "date": "2024-07-12"
+  },
+  {
+    "id": 10,
+    "title": "Mesa de Conversación con el Departamento de Salud",
+    "image": "assets/blog/imagen-10.jpg",
+    "content": "Esta mañana, la directora del Departamento de Salud Comunal se reunió con el Alcalde de Constitución en una mesa de conversación sobre las mejoras en los servicios de salud locales. Durante la reunión, se abordaron temas como la ampliación de la cobertura médica en zonas rurales y la implementación de nuevas tecnologías para el diagnóstico precoz de enfermedades. Los participantes destacaron la importancia de seguir fortaleciendo el sistema de salud local y aseguraron que se realizarán más reuniones para monitorear el progreso de los proyectos en curso.",
+    "author": "Departamento de Salud",
+    "date": "2024-01-23"
+  }
+]

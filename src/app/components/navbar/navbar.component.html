@@ -1,0 +1,109 @@
+<nav class="fixed top-0 w-full bg-white shadow-lg z-50">
+  <div class="container mx-auto flex justify-between items-center py-4 px-6">
+    <div class="flex items-center">
+      <a [routerLink]="['/']">
+        <img src="assets/img/logo_constitucion.jpg" alt="Logo" class="h-12 mr-4">
+      </a>
+    </div>
+
+    <div class="hidden md:flex space-x-8">
+      <!-- Menú Municipalidad con dropdown -->
+      <div class="relative group">
+        <button class="text-gray-700 hover:text-red-600 transition inline-flex items-center">
+          Municipalidad
+          <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+
+        <!-- Dropdown content -->
+        <div class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg w-72 overflow-hidden">
+          <ul class="text-gray-700">
+            <li class="px-4 py-2 hover:bg-gray-100 hover:text-red-600 transition"><a href="https://es.wikipedia.org/wiki/Constituci%C3%B3n_(Chile)" target="_blank">Nuestra Ciudad</a></li>
+            <li class="relative group px-4 py-2 hover:bg-gray-100 hover:text-red-600 transition">
+              <a [routerLink]="['/organigrama']">Organigrama Municipal</a>
+
+            </li>
+            <li class="px-4 py-2 hover:bg-gray-100 hover:text-red-600 transition"><a href="#">Oficinas Municipales</a></li>
+            <li class="px-4 py-2 hover:bg-gray-100 hover:text-red-600 transition"><a href="#">Marco Normativo</a></li>
+            <li class="px-4 py-2 hover:bg-gray-100 hover:text-red-600 transition"><a href="#">Concejo Municipal</a></li>
+            <li class="px-4 py-2 hover:bg-gray-100 hover:text-red-600 transition"><a href="#">Corporaciones</a></li>
+            <li class="px-4 py-2 hover:bg-gray-100 hover:text-red-600 transition"><a href="#">Llamado Concursos Públicos</a></li>
+            <li class="px-4 py-2 hover:bg-gray-100 hover:text-red-600 transition"><a href="#">Reclamaciones Tribunales</a></li>
+            <li class="px-4 py-2 hover:bg-gray-100 hover:text-red-600 transition"><a href="#">Pagos en Línea</a></li>
+            <li class="px-4 py-2 hover:bg-gray-100 hover:text-red-600 transition"><a href="#">Formulario de Trámites</a></li>
+            <li class="px-4 py-2 hover:bg-gray-100 hover:text-red-600 transition"><a href="#">Multimedia</a></li>
+            <li class="px-4 py-2 hover:bg-gray-100 hover:text-red-600 transition"><a href="#">Teléfonos de Interés</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Otros enlaces principales -->
+      <a href="#" class="text-gray-700 hover:text-red-600 transition">Social</a>
+      <a href="#" class="text-gray-700 hover:text-red-600 transition">Deportes</a>
+      <a href="#" class="text-gray-700 hover:text-red-600 transition">Educación</a>
+      <a href="#" class="text-gray-700 hover:text-red-600 transition">Cultura-Turismo</a>
+      <a href="#" class="text-gray-700 hover:text-red-600 transition">Salud</a>
+    </div>
+
+    <div class="flex items-center space-x-4">
+      <a href="https://facebook.com" target="_blank">
+        <img src="assets/icons/facebook.svg" alt="Facebook" class="h-6 w-6">
+      </a>
+      <a href="https://instagram.com" target="_blank">
+        <img src="assets/icons/instagram.svg" alt="Instagram" class="h-6 w-6">
+      </a>
+      <a href="https://x.com" target="_blank">
+        <img src="assets/icons/x.svg" alt="x" class="h-6 w-6">
+      </a>
+    </div>
+
+    <button class="md:hidden text-gray-700 focus:outline-none" (click)="toggleMenu()">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+      </svg>
+    </button>
+
+    <div [ngClass]="{'translate-x-0': menuOpen, 'translate-x-full': !menuOpen}" 
+    class="fixed top-0 right-0 h-full w-4/5 bg-white shadow-lg transition-transform duration-300 ease-in-out transform translate-x-full z-50">
+ <ul class="p-6 space-y-4">
+   <!-- Dropdown para Municipalidad en mobile -->
+   <li>
+     <button class="text-gray-700 hover:text-red-600 transition flex justify-between items-center w-full" (click)="toggleDropdownMobile()">
+       Municipalidad
+       <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+       </svg>
+     </button>
+
+     <!-- Contenido del dropdown -->
+     <ul *ngIf="dropdownOpenMobile" class="pl-4 mt-2 space-y-2">
+       <li><a href="#" class="text-gray-700 hover:text-red-600 transition">Nuestra Ciudad</a></li>
+       <li><a [routerLink]="['/organigrama']" class="text-gray-700 hover:text-red-600 transition">Organigrama Municipal</a></li>
+       <li class="text-gray-700 hover:text-red-600 transition"><a href="#" >Oficinas Municipales</a></li>
+       <li class="hover:bg-gray-100 hover:text-red-600 transition"><a href="#">Marco Normativo</a></li>
+       <li class="hover:bg-gray-100 hover:text-red-600 transition"><a href="#">Corporaciones</a></li>
+       <li class="hover:bg-gray-100 hover:text-red-600 transition"><a href="#">Concejo Municipal</a></li>
+       <li class="hover:bg-gray-100 hover:text-red-600 transition"><a href="#">Llamado Concursos Públicos</a></li>
+       <li class="hover:bg-gray-100 hover:text-red-600 transition"><a href="#">Reclamaciones Tribunales</a></li>
+       <li class="hover:bg-gray-100 hover:text-red-600 transition"><a href="#">Pagos en Línea</a></li>
+       <li class="hover:bg-gray-100 hover:text-red-600 transition"><a href="#">Formulario de Trámites</a></li>
+       <li class="hover:bg-gray-100 hover:text-red-600 transition"><a href="#">Multimedia</a></li>
+       <li class="hover:bg-gray-100 hover:text-red-600 transition"><a href="#">Teléfonos de Interés</a></li>
+     </ul>
+   </li>
+
+   <!-- Otros enlaces principales -->
+   <li><a href="#" class="text-gray-700 hover:text-red-600 transition">Social</a></li>
+   <li><a href="#" class="text-gray-700 hover:text-red-600 transition">Deportes</a></li>
+   <li><a href="#" class="text-gray-700 hover:text-red-600 transition">Educación</a></li>
+   <li><a href="#" class="text-gray-700 hover:text-red-600 transition">Cultura-Turismo</a></li>
+   <li><a href="#" class="text-gray-700 hover:text-red-600 transition">Salud</a></li>
+ </ul>
+</div>
+
+  <!-- Capa oscura de fondo -->
+  <div [ngClass]="{'block': menuOpen, 'hidden': !menuOpen}" 
+       class="fixed inset-0 bg-gray-900 opacity-50 z-40" (click)="toggleMenu()"></div>
+  </div>
+</nav>
