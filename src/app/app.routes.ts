@@ -4,10 +4,12 @@ import { BlogDetailComponent } from './components/blog-detail/blog-detail.compon
 import { HomeComponent } from './components/page-home/home.component';
 import { PageContactComponent } from './components/page-contact/page-contact.component';
 import { PageOrganigramaComponent } from './components/page-organigrama/page-organigrama.component';
+import { PageFarmaciaPopularComponent } from './components/page-farmacia-popular/page-farmacia-popular.component';
 
 export const routes = [
   { path: '', component: HomeComponent },
   { path: 'contacto', component: PageContactComponent },
+  { path: 'farmacia', component: PageFarmaciaPopularComponent},
   { path: 'organigrama', component: PageOrganigramaComponent}, 
   { path: 'blog', component: BlogListComponent },
   { path: 'blog/:id', component: BlogDetailComponent },

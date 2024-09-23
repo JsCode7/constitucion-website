@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { SectionTopbarComponent } from '../section-topbar/section-topbar.component';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [RouterModule, CommonModule],
+  imports: [RouterModule, CommonModule, SectionTopbarComponent],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css'
 })

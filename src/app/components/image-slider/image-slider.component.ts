@@ -17,21 +17,21 @@ export class ImageSliderComponent {
       title: 'Celebra las fiestas patrias en Constitucion',
       subtitle: 'Conoce nuestras ubicaciones',
       cta: 'Leer más',
-      link: '/explore'
+      link: '/blog'
     },
     {
       image: '/assets/img/slider-2.jpg',
       title: 'Postula a más beneficios',
       subtitle: 'Creados especialmente para ti',
       cta: 'Ver más',
-      link: '/experiences'
+      link: '/blog'
     },
     {
       image: '/assets/img/slider-3.jpg',
       title: '¿Necesitas patente municipal?',
       subtitle: 'Nosotros te ayudamos',
       cta: 'Solicitar',
-      link: '/adventure'
+      link: 'https://sertex1.stonline.cl/Constitucion/patcom/asp/inicio.asp'
     }
   ];
 
